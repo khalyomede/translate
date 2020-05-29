@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add --dev rollup @rollup/plugin-typescript typescript npm-check-updates rolltup-plugin-terser
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Khaly\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\Khaly\AppData\Local\Programs\Python\Python37-32;C:\Users\Khaly\AppData\Local\Programs\Python\Python37-32\Scripts;C:\ffmpeg\bin;C:\Program Files\Java\jdk-11.0.5\bin;C:\Program Files\sqlite;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Ruby25-x64\bin;C:\Users\Khaly\AppData\Local\Microsoft\WindowsApps;C:\Users\Khaly\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Khaly\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Java\jdk-11.0.5\bin;C:\Program Files\sqlite;C:\Users\Khaly\Downloads\v;C:\Program Files (x86)\GnuWin32\bin;C:\Users\Khaly\AppData\Roaming\npm;C:\Users\Khaly\AppData\Local\Yarn\bin;C:\Program Files\Docker Toolbox
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rolltup-plugin-terser: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66096:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:223:5)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:223:5)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:312:28)
+      at IncomingMessage.emit (events.js:228:7)
+      at endReadableNT (_stream_readable.js:1185:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:21)
+
+npm manifest: 
+  {
+    "name": "@khalyomede/translate",
+    "version": "0.1.0",
+    "description": "Translate a string using the free translate.googleapis.com endpoint (no API key required).",
+    "main": "lib/index.js",
+    "repository": "https://github.com/translate",
+    "author": "Khalyomede <khalyomede@gmail.com>",
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,41 @@
+{
+	"name": "@khalyomede/translate",
+	"version": "0.1.0",
+	"description": "Translate a string using the free translate.googleapis.com endpoint (no API key required).",
+	"main": "lib/index.js",
+	"repository": "https://github.com/translate",
+	"author": "Khalyomede <khalyomede@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"devDependencies": {
+		"@rollup/plugin-typescript": "4.*",
+		"@types/axios": "0.14.*",
+		"@types/chai": "4.*",
+		"@types/chai-as-promised": "7.*",
+		"@types/mocha": "7.*",
+		"axios": "0.19.*",
+		"chai": "4.*",
+		"chai-as-promised": "7.*",
+		"mocha": "7.*",
+		"npm-check-updates": "6.*",
+		"rollup": "2.*",
+		"rollup-plugin-terser": "6.*",
+		"ts-node": "8.*",
+		"tslib": "2.*",
+		"typescript": "3.*"
+	},
+	"scripts": {
+		"build": "ncu && rollup -c && tsc --emitDeclarationOnly --declaration --declarationDir lib",
+		"test": "mocha --require ts-node/register test/*.ts"
+	},
+	"files": [
+		"dist/index.js",
+		"dist/index.min.js",
+		"lib/interfaces/index.d.ts",
+		"lib/interfaces/IOptions.d.ts",
+		"lib/types/index.d.ts",
+		"lib/types/Lang.d.ts",
+		"lib/index.d.ts",
+		"lib/index.js"
+	]
+}

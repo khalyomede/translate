@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"alwaysStrict": true,
+		"target": "ES6",
+		"moduleResolution": "Node",
+		"esModuleInterop": true
+	},
+	"exclude": ["test", "lib"]
+}
