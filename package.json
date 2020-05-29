@@ -13,7 +13,6 @@
 		"@types/chai": "4.*",
 		"@types/chai-as-promised": "7.*",
 		"@types/mocha": "7.*",
-		"axios": "0.19.*",
 		"chai": "4.*",
 		"chai-as-promised": "7.*",
 		"mocha": "7.*",
@@ -37,5 +36,8 @@
 		"lib/types/Lang.d.ts",
 		"lib/index.d.ts",
 		"lib/index.js"
-	]
+	],
+	"dependencies": {
+		"axios": "0.19.*"
+	}
 }
