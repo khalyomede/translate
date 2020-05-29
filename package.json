@@ -16,6 +16,7 @@
 		"chai": "4.*",
 		"chai-as-promised": "7.*",
 		"mocha": "7.*",
+		"np": "6.*",
 		"npm-check-updates": "6.*",
 		"rollup": "2.*",
 		"rollup-plugin-terser": "6.*",
@@ -25,7 +26,8 @@
 	},
 	"scripts": {
 		"build": "ncu && rollup -c && tsc --emitDeclarationOnly --declaration --declarationDir lib",
-		"test": "mocha --require ts-node/register test/*.ts"
+		"test": "mocha --require ts-node/register test/*.ts",
+		"release": "np"
 	},
 	"files": [
 		"dist/index.js",
