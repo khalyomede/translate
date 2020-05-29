@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"description": "Translate a string using the free translate.googleapis.com endpoint (no API key required).",
 	"main": "lib/index.js",
-	"repository": "https://github.com/translate",
+	"repository": "https://github.com/khalyomede/translate",
 	"author": "Khalyomede <khalyomede@gmail.com>",
 	"license": "MIT",
 	"private": false,
