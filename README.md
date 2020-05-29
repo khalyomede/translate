@@ -2,6 +2,8 @@
 
 Translate a string using the free translate.googleapis.com endpoint (no API key required).
 
+[![npm](https://img.shields.io/npm/v/@khalyomede/translate)](https://www.npmjs.com/package/@khalyomede/translate) [![NPM](https://img.shields.io/npm/l/@khalyomede/translate)](https://github.com/khalyomede/translate/blob/master/LICENSE) ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/@khalyomede/translate) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@khalyomede/translate)
+
 ## Summary
 
 - [About](#about)
