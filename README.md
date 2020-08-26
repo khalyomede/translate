@@ -17,6 +17,8 @@ I want to build a small web app to translate a term into another (exactly like t
 
 The only packages on NPM I found are not working or use an API requiring an API key, which I do not want to use (because it asks for my credit card).
 
+This package is using a public URL, which is not the same endpoint used in classic Google API. This URL has the huge advantage of not requiring any API key. The disadvantage is that it is not official (but used by several public translation services), so the result of the URL call might change (and I'll make sure when it happens to update it). It seems that the result has not changes in ages, but nothing is sure, so for huge scale project, you would not rely on this library, but rather using the official Google API.
+
 ## Requirements
 
 - Node installed
