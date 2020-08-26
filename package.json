@@ -1,6 +1,6 @@
 {
 	"name": "@khalyomede/translate",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Translate a string using the free translate.googleapis.com endpoint (no API key required).",
 	"main": "lib/index.js",
 	"repository": "https://github.com/khalyomede/translate",
