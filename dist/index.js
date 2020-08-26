@@ -1,7 +1,9 @@
 var translate = (function (axios) {
     'use strict';
 
-    axios = axios && Object.prototype.hasOwnProperty.call(axios, 'default') ? axios['default'] : axios;
+    function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+    var axios__default = /*#__PURE__*/_interopDefaultLegacy(axios);
 
     /*! *****************************************************************************
     Copyright (c) Microsoft Corporation.
@@ -62,7 +64,7 @@ var translate = (function (axios) {
             throw new TypeError("expected key options.to to be a string");
         }
         const encodedText = encodeURI(text);
-        const { data } = yield axios.get(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=${options.from}&tl=${options.to}&dt=t&q=${encodedText}`);
+        const { data } = yield axios__default['default'].get(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=${options.from}&tl=${options.to}&dt=t&q=${encodedText}`);
         // @ts-ignore
         // Too lazy to create a type for this kind of Array:
         // [ 'Bonjour\n', 'Hello\n', null, null, 1 ]
