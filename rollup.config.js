@@ -17,7 +17,16 @@ export default {
 		{
 			file: "dist/index.min.js",
 			format: "iife",
-			plugins: [terser()],
+			plugins: [
+				terser({
+					compress: {
+						passes: 2,
+					},
+					output: {
+						comments: false,
+					},
+				}),
+			],
 			name: "translate",
 		},
 	],
